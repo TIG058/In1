@@ -1,4 +1,4 @@
-package myprogram.hmi.cli;
+package edu.sysvp.program;
 
 import java.util.ArrayList;
 import java.util.Collections;

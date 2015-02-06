@@ -1,0 +1,1 @@
+Hur man skapar Classpaths javac -cp .;3pp\sandkleef-edu.jar;3pp\tig058.jar edu\sysvp\program\ClubMain.java
