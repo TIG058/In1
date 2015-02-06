@@ -2,6 +2,9 @@ package edu.sysvp.program;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.*;
+import java.text.*;
+import java.io.*;
 
 import tig058.handin01.registry.ClubRegistry;
 import tig058.handin01.member.Member;
@@ -19,13 +22,20 @@ public class ClubMain {
     }
 
     public static void main(String[] args) {
+    Date d=new Date(); // nytt
 	System.out.println(" -----===< Club Manager >===-----");
+	System.out.println("  Date:       "+ d); // nytt
 	printProp("  User:       ", "user.name");
 	printProp("  OS arch:    ", "os.arch");
 	printProp("  OS name:    ", "os.name");
 	printProp("  OS version: ", "os.version");
 	System.out.println(" -----=====================-----");
 	System.out.println("");
+	 // nytt
+
+	ClubHelper c= new ClubHelper(); // Peter
+	Menu m=new Menu(c); // Mitt
+	m.run(); // Mitt
 
 	//	Logger.setDebugLevel();
 

@@ -1,0 +1,1 @@
+Hur man kör java -cp .;3pp\sandklef-edu.jar;3pp\tig058.jar edu.sysvp.program.ClubMain PUNKTER PÅ Java
