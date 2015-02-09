@@ -16,13 +16,13 @@ public class Menu {
    	ConsoleMenu menu = new ConsoleMenu("-----===< Club Manager >===-----");
 	menu.addMenuItem(new MenuItem(){
 		public void menuItemSelected(ConsoleMenuEvent e) { 
-		    ch.printMembers(); } 
-	    },"List members" );
+		    ch.printMembersAlphaFirstName(); } 
+	    },"List members first name in alphabetical order" );
 
 	menu.addMenuItem(new MenuItem(){
 		public void menuItemSelected(ConsoleMenuEvent e) { 
 		    ch.printMembersAlpha(); } 
-	    },"List members in Alphabetical order" );
+	    },"List members surname in alphabetical order" );
 
 	menu.addMenuItem(new MenuItem(){
 		public void menuItemSelected(ConsoleMenuEvent e) { 
