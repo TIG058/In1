@@ -1,4 +1,6 @@
 public class Controller{
 	
-	public static listMemberAlpha(Member)
+	public static listMemberAlpha(Member){
+		
+	}
 }
