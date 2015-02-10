@@ -26,6 +26,11 @@ public class Menu {
 
 	menu.addMenuItem(new MenuItem(){
 		public void menuItemSelected(ConsoleMenuEvent e) { 
+		    ch.printMembersById(); } 
+	    },"List members by ID" );
+
+	menu.addMenuItem(new MenuItem(){
+		public void menuItemSelected(ConsoleMenuEvent e) { 
 		    String input = ch.askUser("Enter search string, you bastard: ");
 		    String search = "%" + input.trim() + "%";
 		    ch.printMembers(search); 

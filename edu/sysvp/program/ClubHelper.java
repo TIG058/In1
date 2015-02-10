@@ -80,6 +80,16 @@ public class ClubHelper {
 	    System.out.println(m);
 	}
     }
+    public void printMembersById() {
+	Logger.debugM();
+	ArrayList<Member> members = cr.getMembers();
+	Collections.sort(members, new IdComparator());
+
+	System.out.println("Members:");
+	for (Member m: members) {
+	    System.out.println(m);
+	}
+    }
 
     public void printTeamMembers(String team) {
 	Logger.debugM();
